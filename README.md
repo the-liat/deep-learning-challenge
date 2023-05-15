@@ -39,7 +39,8 @@ The first model I created was chosen to replicate the output given in the starte
 
 Specifically I chose a model with two hidden layers and an output layer. The input layer was determined by the shape of the training data (43 features). This, the number of neurons in the input layer is equal to 43. The activation chosen for the two hidden layers was ReLu and for the out put layer I chose Sigmoid which is suitable for binary classification tasks such as this one (whether funding was successful or not).
 After compling the model and training it on the train data, I evaluated the model loss and accuracy measures on the test data.
-The model loss was too high at 55.6% and the model accuracy was too low at 72.5% (lower than the target performance rate of 75%). To improve the model performance I tried the following optimazation method: <br>
+The model loss was too high at 55.6% and the model accuracy was too low at 72.5% (lower than the target performance rate of 75%). To improve the model performance I tried the following optimazation method. <br>
+## Optimization Attempts
 1) **Checking for outliers:** I assessed the distribution of the only continous variable - amount of funding requested.<br>
 <img src=Images/boxplot.png>
 
